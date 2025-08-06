@@ -7,9 +7,10 @@ let inferredString = "Hello, TypeScript!";
 // TypeScript infers the type as boolean
 let inferredBoolean = true;
 
-type User = {
+export type User = {
   name: string;
-  age: number;
+  age?: number;
+  email?: string;
 };
 
 interface Persons {
